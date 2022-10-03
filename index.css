@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin= 0;
+    padding: 0;
+    border-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+.mainBox {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+    height: 97vh;
+    width: 98vw;
+    border-style: none;
+}
+
+/* Header */
+.headerBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: white;
+    height: 12.6%;
+    width: 78%;
+    border-style: none;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 13%;
+    border-style: none;
+}
+
+.optionsBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 9%;
+    height: 100%;
+    width: 46%;
+    color: #68707D;
+    font-family: sans-serif;
+    border-style: none;
+    margin-right: 32%;
+}
+
+.userBox {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 12%;
+    border-style: none;
+}
+
+.cartBox {
+    display: flex;
+    background-image: url("cart.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+    border-style: none;
+}
+.userImageBox {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 50%;
+    margin-bottom: 10%;
+    border-style: none;
+}
+
+.profilePicture {
+    border-radius: 50%;
+}
+
+/* Section */
+.sectionBox {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 87.4%;
+    width: 100%;
+    border-style: none;
+}
+/* Images side (left) */
+.imagesBox {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    height: 100%;
+    width: 47%;
+    border-style: none;
+}
+
+.centralImageBox {
+    display: flex;
+    justify-content: center;
+    height: 65%;
+    width: 60%;
+    background-color: rgb(92, 162, 92);
+    margin-bottom: 3%;
+    border-style: none;
+}
+
+.otherImagesBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    column-gap: 3%;
+    height: 15%;
+    width: 60%;
+    border-style: none;
+}
+.productImage {
+    border-radius: 60px;
+}
+
+.productImageMini {
+    height: 100%;
+    width: 20%;
+    background-image: url("product.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+/* Text side (right) */
+.textBox {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    width: 45%;
+    border-style: none;
+}
+
+.productDetailBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 70%;
+    width: 70%;
+}
+
+.companyBox {
+    color: #FF7D1A;
+    font-family: san sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.productNameBox {
+    display: flex;
+    flex-flow: row wrap;
+    color: black;
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.descriptionBox {
+    color: #68707D;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.pricesBox {
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.actualBox {
+    display: flex;
+    flex-flow: row;
+}
+
+.actualPriceBox{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.actualDiscount {
+    align-self: center;
+    margin-left: 10%;
+    color: #FF7D1A;
+    font-family: san sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.previousBox{
+    color: #68707D;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: line-through;
+    margin-top: 10%;
+}
+.addBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+    width: 100%;
+    border-style: none;
+}
+
+.quantityBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 40%;
+    border-style: none;
+}
+
+.addCartBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    border-style: none;
+}
+
+.quantityButton {
+    background-color: white;
+    border: none;
+    color: #FF7D1A;
+    text-align: center;
+    font-size: 22px;
+    padding: 6px;
+    width: 40px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 20%;
+}
+
+.buttonAdd {
+    color:white;
+    font-weight: 700;
+    background-color: #FF7D1A;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+}
